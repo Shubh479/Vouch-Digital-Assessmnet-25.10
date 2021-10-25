@@ -1,0 +1,616 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap");
+
+.body {
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  /* overflow-y: hidden;
+  justify-content: center; */
+  border: 2px solid red;
+}
+
+.form {
+  width: 40%;
+  height: 35%;
+  margin-top: 18%;
+  border: 2px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+.form > h1 {
+  width: 100%;
+  font-size: 40px;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bolder;
+  line-height: 20px;
+  color: rgb(12, 12, 73);
+}
+
+.form > h4 {
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  margin-top: -5px;
+  margin-bottom: 25px;
+  color: gray;
+}
+
+.login-form {
+  width: 86%;
+  height: 275px;
+  line-height: 10px;
+  margin-left: 45px;
+  border: 2px solid green;
+}
+
+.Email {
+  height: 50px;
+}
+
+.Password {
+  height: 50px;
+}
+
+.login-form-button {
+  width: 100%;
+  background-color: rgb(12, 12, 73);
+  height: 50px;
+  border: 1px solid rgb(12, 12, 73);
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.error__message {
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+
+.password__details {
+  font-size: 18px;
+  line-height: 15px;
+  padding-left: 2px;
+  color: rgb(12, 12, 73);
+}
+
+.login-form-remember {
+  font-weight: bolder;
+  font-size: 18px;
+}
+.login-form-forgot {
+  float: right;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+.layout {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.btns {
+  margin-top: 15px;
+  margin-left: 50%;
+  font-weight: lighter;
+}
+
+.button__trial {
+  width: 200px;
+  padding: 5px;
+  background-color: rgb(12, 12, 73);
+  color: white;
+}
+
+.button__login {
+  width: 200px;
+  padding: 5px;
+  margin-left: 15px;
+  background-color: rgb(255, 115, 0);
+  color: white;
+  border: 1px solid rgb(255, 115, 0);
+}
+
+.background {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(12, 12, 73);
+  float: right;
+  border: 2px solid yellow;
+}
+
+@media screen and (max-width: 1520px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+  }
+  .layout {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .btns {
+    margin-top: 15px;
+    margin-left: 50%;
+    font-weight: lighter;
+  }
+
+  .button__trial {
+    width: 175px;
+    padding: 5px;
+    background-color: rgb(12, 12, 73);
+    color: white;
+  }
+
+  .button__login {
+    width: 175px;
+    padding: 5px;
+    margin-left: 15px;
+    background-color: rgb(255, 115, 0);
+    color: white;
+    border: 1px solid rgb(255, 115, 0);
+  }
+
+  .background {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(12, 12, 73);
+    float: right;
+  }
+
+  .form {
+    width: 66%;
+    height: 35%;
+    margin-top: 14%;
+  }
+
+  .login-form {
+    width: 86%;
+    height: 225px;
+    line-height: 10px;
+    margin-left: 7%;
+  }
+
+  .login-form-button {
+    width: 100%;
+    background-color: rgb(12, 12, 73);
+    height: 50px;
+    border: 1px solid rgb(12, 12, 73);
+    font-weight: 500;
+  }
+
+  .password__details {
+    font-size: 10px;
+    line-height: 10px;
+    padding-left: 2px;
+    color: rgb(12, 12, 73);
+  }
+
+  .login-form-remember {
+    font-size: 20px;
+  }
+
+  .login-form-forgot {
+    float: right;
+    font-size: 20px;
+    margin-top: 3px;
+  }
+
+  .form > h1 {
+    width: 100%;
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 20px;
+    color: rgb(12, 12, 73);
+  }
+
+  .form > h4 {
+    width: 100%;
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 25px;
+    color: gray;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+  }
+  .layout {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .btns {
+    margin-top: 15px;
+    margin-left: 50%;
+    font-weight: lighter;
+  }
+
+  .button__trial {
+    width: 150px;
+  }
+
+  .button__login {
+    width: 150px;
+  }
+
+  .background {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+
+  .form {
+    width: 50%;
+    height: 35%;
+    margin-top: 17%;
+  }
+
+  .login-form {
+    width: 90%;
+    height: 225px;
+    line-height: 10px;
+    margin-left: 6%;
+  }
+
+  .login-form-button {
+    width: 100%;
+    font-weight: 500;
+  }
+  .password__details {
+    line-height: 15px;
+    padding-left: 2px;
+    color: rgb(12, 12, 73);
+  }
+
+  .login-form-remember {
+    font-size: 15px;
+  }
+
+  .login-form-forgot {
+    font-size: 15px;
+    margin-top: 2px;
+  }
+  .form > h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .form > h4 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+  }
+  .layout {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .btns {
+    margin-top: 15px;
+    margin-left: 50%;
+    font-weight: lighter;
+  }
+  .button__trial {
+    width: 120px;
+  }
+
+  .button__login {
+    width: 120px;
+  }
+
+  .background {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+
+  .form {
+    width: 50%;
+    height: 35%;
+    margin-top: 16%;
+  }
+
+  .login-form {
+    width: 90%;
+    height: 225px;
+    line-height: 10px;
+    margin-left: 5%;
+  }
+
+  .login-form-button {
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .password__details {
+    line-height: 10.5px;
+    padding-left: 2px;
+    color: rgb(12, 12, 73);
+  }
+
+  .login-form-remember {
+    font-size: 10.5px;
+  }
+
+  .login-form-forgot {
+    font-size: 10.5px;
+    margin-top: 6px;
+  }
+  .form > h1 {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .form > h4 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: block;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  .layout {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .btns {
+    margin-top: 15px;
+    margin-left: 29%;
+    font-weight: lighter;
+  }
+  .button__trial {
+    width: 150px;
+  }
+
+  .button__login {
+    width: 150px;
+  }
+
+  .background {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+
+  .form {
+    width: 100%;
+    height: 45%;
+    margin-top: 12%;
+  }
+
+  .login-form {
+    width: 75%;
+    height: 225px;
+    line-height: 10px;
+    margin-left: 13%;
+  }
+
+  .login-form-button {
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .password__details {
+    line-height: 18px;
+    padding-left: 2px;
+    color: rgb(12, 12, 73);
+  }
+
+  .login-form-remember {
+    font-size: 18px;
+  }
+
+  .login-form-forgot {
+    font-size: 18px;
+    margin-top: 4px;
+  }
+  .form > h1 {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form > h4 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    display: block;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  .layout {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .btns {
+    margin-top: 15px;
+    margin-left: 25%;
+    font-weight: lighter;
+  }
+  .button__trial {
+    width: 120px;
+  }
+
+  .button__login {
+    width: 120px;
+  }
+
+  .background {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+
+  .form {
+    width: 100%;
+    height: 45%;
+    margin-top: 12%;
+    margin-left: 0px;
+  }
+
+  .login-form {
+    width: 75%;
+    height: 225px;
+    margin-left: 12%;
+    line-height: 10px;
+  }
+
+  .login-form-button {
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .password__details {
+    line-height: 15px;
+    padding-left: 2px;
+    color: rgb(12, 12, 73);
+  }
+
+  .login-form-remember {
+    font-size: 15px;
+  }
+
+  .login-form-forgot {
+    font-size: 15px;
+    margin-top: 1px;
+  }
+  .form > h1 {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .form > h4 {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 420px) {
+  .container {
+    display: block;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  .layout {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  .btns {
+    margin-top: 18%;
+    margin-left: 18%;
+    font-weight: lighter;
+  }
+  .button__trial {
+    width: 120px;
+  }
+
+  .button__login {
+    width: 120px;
+  }
+
+  .background {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    float: right;
+  }
+
+  .form {
+    width: 100%;
+    height: 45%;
+    margin-top: 0%;
+    margin-left: 0px;
+  }
+
+  .login-form {
+    width: 75%;
+    height: 225px;
+    margin-left: 12%;
+    margin-top: -5%;
+    line-height: 10px;
+  }
+
+  .login-form-button {
+    width: 100%;
+    font-weight: 500;
+  }
+
+  .password__details {
+    line-height: 12px;
+    padding-left: 2px;
+    color: rgb(12, 12, 73);
+  }
+
+  .login-form-remember {
+    font-size: 12px;
+  }
+
+  .login-form-forgot {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  .form > h1 {
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .form > h4 {
+    width: 100%;
+    text-align: center;
+  }
+}
